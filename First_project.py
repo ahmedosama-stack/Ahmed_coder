@@ -7,7 +7,7 @@ try:
         #This part for write
         if(request=="w"):
             medo1=open(input("Enter the name of the file with the path like (ahmed.txt):"),"w")
-            medo1.write(input("Enter what are you want to write in the file \n :"))
+            medo1.write(input("Enter what do you want to write in the file \n :"))
             medo1.close()
             print("""//////////////////////////////////////////""")
             #This part for read"
